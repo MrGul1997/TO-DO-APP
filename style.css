@@ -1,0 +1,77 @@
+*{
+    list-style: none;
+    text-align: center;
+}
+
+body{
+    background-color: aliceblue;
+    
+    background-image: url(todo.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+input{
+width: 35vw;
+height: 5vh;
+border-radius: 8px 0px 8px 0px;
+/* font-size: 2.1vw; */
+background:transparent;
+outline: none;
+
+}
+
+input:focus{
+    box-shadow: 0px 5px 8px 2px;
+    outline: none;
+}
+
+.btn1{
+    background: transparent;
+    width: 10vw;
+    height: 6vh;
+    font-size: 2vw;
+    cursor: pointer;
+    /* box-shadow: 0px 0px 5px 1px; */
+    border-radius: 10%;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid salmon;
+    transition: ease-in .2s;
+}
+
+.btn1:hover{
+    background: orange;
+    color: white;
+    transition: ease-in .2s;
+}
+
+.btn2{
+    background: transparent;
+    width: 10vw;
+    height: 6vh;
+    font-size: 2vw;
+    cursor: pointer;
+    /* box-shadow: 0px 0px 5px 1px; */
+    border-radius: 10%;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid salmon;
+    transition: ease-in .2s;
+}
+
+.btn2:hover{
+    background: red;
+    color: white;
+    transition: ease-in .2s;
+}
+
+ul{
+    text-align: center;
+}
+ul>li{
+    color: black;
+    /* width: 20vw; */
+    margin-bottom: 10px;
+    /* background-color: yellowgreen; */
+}
